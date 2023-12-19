@@ -1,0 +1,29 @@
+{
+  "links": [
+    {
+      "name": "Servicios",
+      "link": "/#servicios"
+    },
+
+    {
+      "name": "Destacados",
+      "link": "/#productos",
+      "important": true
+    },
+
+    {
+      "name": "Testimonios",
+      "link": "/#testimonios"
+    },
+
+    {
+      "name": "Preguntas",
+      "link": "/#preguntas"
+    },
+
+    {
+      "name": "Contacto",
+      "link": "/#contacto"
+    }
+  ]
+}

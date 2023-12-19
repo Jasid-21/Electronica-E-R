@@ -1,0 +1,93 @@
+{
+  "products": [
+    {
+      "name": "Arduino Uno",
+      "relevant": "Rev 3",
+      "price": 63000,
+      "description": "",
+      "imgUrl": "arduino_1.jpg",
+      "featured": true
+    },
+
+    {
+      "name": "Multímetro",
+      "relevant": "Amps, Volts and Ohms",
+      "price": 21000,
+      "description": "",
+      "imgUrl": "multimeter.jpg",
+      "featured": true
+    },
+
+    {
+      "name": "Capacitores",
+      "relevant": "Different values",
+      "price": 200,
+      "description": "",
+      "imgUrl": "capacitor.jpg",
+      "featured": true
+    },
+
+    {
+      "name": "Transistores",
+      "relevant": "Different values",
+      "price": 300,
+      "description": "",
+      "imgUrl": "transistor.jpg",
+      "featured": true
+    },
+
+    {
+      "name": "Raspberry PI",
+      "relevant": "Rev 3",
+      "price": 300000,
+      "description": "",
+      "imgUrl": "raspberry.jpg",
+      "featured": true
+    },
+
+    {
+      "name": "Arduino Uno",
+      "relevant": "Rev 3",
+      "price": 63000,
+      "description": "",
+      "imgUrl": "arduino_1.jpg",
+      "featured": true
+    },
+
+    {
+      "name": "Arduino Uno",
+      "relevant": "Rev 3",
+      "price": 63000,
+      "description": "",
+      "imgUrl": "arduino_1.jpg",
+      "featured": true
+    },
+
+    {
+      "name": "Arduino Uno",
+      "relevant": "Rev 3",
+      "price": 63000,
+      "description": "",
+      "imgUrl": "arduino_1.jpg",
+      "featured": true
+    },
+
+    {
+      "name": "Arduino Uno",
+      "relevant": "Rev 3",
+      "price": 63000,
+      "description": "",
+      "imgUrl": "arduino_1.jpg",
+      "featured": false
+    },
+
+    {
+      "name": "Arduino Uno",
+      "relevant": "Rev 3",
+      "price": 63000,
+      "description": "",
+      "imgUrl": "arduino_1.jpg",
+      "featured": false
+    }
+  ]
+}

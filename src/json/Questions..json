@@ -1,0 +1,28 @@
+{
+  "questions": [
+    {
+      "question": "Cómo ordeno?",
+      "answer": "En nuestra sección de contacto puedes encontrar nuestro whatsapp. Puedes hablar con uno de nuestros vendedores para reservar tu producto o hacértelo llegar a tu domicilio."
+    },
+
+    {
+      "question": "Qué métodos de pago aceptan?",
+      "answer": "Aceptamos efectivo, tarjeta de crédito, tarjeta de débito y pagos móbiles NFC"
+    },
+
+    {
+      "question": "Cuánto tarda un domicilio?",
+      "answer": "Depende de tu lugar de domilicio. Pero debe estar llegando dentro de un rango de, máximo, 3 horas."
+    },
+
+    {
+      "question": "Cuál es la política de reembolso?",
+      "answer": "Ofrecemos un tiempo de reembolso de X días. Si el dispositivo presenta fallas dentro de ese rango de tiempo, puedes contactar con nosotros y te lo cambiaremos o te haremos el respectivo reembolso"
+    },
+
+    {
+      "question": "Qué métodos de pago aceptan?",
+      "answer": "Por el momento sólo aceptamos efectivo. Puedes cancelarle a quien te haga entreg del producto o cancelar en caja en caso que pases por tu producto. Estamos trabajando para incluir nuevos métodos de pago a nuestro negocio."
+    }
+  ]
+}

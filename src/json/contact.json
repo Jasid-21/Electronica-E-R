@@ -1,0 +1,31 @@
+{
+  "contact": [
+    {
+      "icon": "fa-brands fa-whatsapp",
+      "content": "3007733712"
+    },
+  
+    {
+      "icon": "fa-solid fa-location-dot",
+      "content": "Cl.22 #17-25, Sincelejo, Sucre"
+    },
+  
+    {
+      "icon": "fa-solid fa-clock",
+      "content": "De lunes a viernes, 08:30 - 18:00",
+      "schedule": true
+    },
+  
+    {
+      "icon": "fa-solid fa-clock",
+      "content": "Sábado, 08:30 - 16:00",
+      "schedule": true
+    },
+  
+    {
+      "icon": "fa-solid fa-clock",
+      "content": "Domingo, 09:30 - 12:00",
+      "schedule": true
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "services": [
+    {
+      "name": "Atención al cliente oportuna y dedicada",
+      "description": "En nuestra empresa brindamos atención excepcional a nuestros clientes para todos nuestros dispositivos. Nuestro equipo está aquí para ayudarlo con cualquier pregunta o problema que pueda tener.",
+      "imgUrl": "support.jpg",
+      "button": "Contacto",
+      "buttonLink": "#contacto"
+    },
+
+    {
+      "name": "Dispositivos electrónicos de alta calidad",
+      "description": "En nuestra pequeña empresa, nos dedicamos a proporcionar dispositivos electrónicos conocidos por su calidad y confiabilidad excepcionales. Nuestros productos son cuidadosamente seleccionados y probados para garantizar que cumplan con los más altos estándares, brindándole tranquilidad y confianza en su compra.",
+      "imgUrl": "board.jpg",
+      "button": "Catálogo",
+      "buttonLink": "/catalogo"
+    },
+
+    {
+      "name": "Ensamblado y reparación de dispositivos",
+      "description": "Si ya cuentas con un dispositivo y necesitas repararlo, puedes contar con nosotros. Tenemos ardua experiencia en la reparación y el ensamblado de dispositivos electrónicos.",
+      "imgUrl": "ensamble.jpg"
+    },
+
+    {
+      "name": "Servicio a domicilio a un bajo costo",
+      "description": "Puedes escoger tus dispositivos en nuestro almacen o puedes pedirlos a domicilio. Nosotros lo llevaremos a la puerta de tu casa.",
+      "imgUrl": "delivery.jpg",
+      "button": "Contacto",
+      "buttonLink": "#contacto"
+    }
+  ]
+}
