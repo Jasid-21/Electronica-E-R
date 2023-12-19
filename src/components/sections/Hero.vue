@@ -10,7 +10,7 @@
         </p>
         <br>
         <div class="buttons-container flex gap-8 items-center">
-          <a href="/catalogo" class="bg-primary text-text font-semibold p-2">Ver todo</a>
+          <a href="/catalogo" class="bg-accent text-text font-semibold p-2">Ver todo</a>
           <a href="#productos" class="text-white font-semibold border p-2">Lo más vendido</a>
         </div>
       </div>

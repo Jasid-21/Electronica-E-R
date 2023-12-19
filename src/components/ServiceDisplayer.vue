@@ -1,7 +1,8 @@
 <template>
-  <div class="service-displayer text-white relative" :class="{ rtl }">
-    <img :src="require('@/assets/images/' + service.imgUrl)" class="object-cover h-full w-full absolute left-0 top-0" alt="Service image">
-    <div class="info-container px-8 py-12 bg-black/50 relative grid gap-4 grid-cols-1 grid-rows-2 lg:grid-cols-2 lg:grid-rows-1">
+  <div class="service-displayer max-w-4xl mx-auto text-white relative" :class="{ rtl }">
+    <img :src="require('@/assets/images/' + service.imgUrl)" class="service-img object-cover h-full w-full absolute left-0 top-0" alt="Service image">
+    <div class="background-screen absolute w-full h-full top-0 left-0 bg-black/50"></div>
+    <div class="info-container px-8 py-12 relative grid gap-4 grid-cols-1 grid-rows-2 lg:grid-cols-2 lg:grid-rows-1">
       <h2 class="service-title text-3xl font-semibold md:text-3xl">{{ service.name }}</h2>
       <div>
         <p class="service description">

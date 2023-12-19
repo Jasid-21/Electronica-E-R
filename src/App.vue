@@ -35,7 +35,7 @@ const contact_items: Contact[] = j_contacts.contact;
 
 <style lang="scss">
 :root {
-  --y_pad: 4rem;
+  --y_pad: 4.5rem;
   --x_pad: 1rem;
 
   @media (min-width: 640px) {

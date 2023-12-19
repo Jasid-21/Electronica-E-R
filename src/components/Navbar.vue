@@ -16,25 +16,38 @@
       Productos
     </a>
 
-    <button class="lg:hidden bg-text text-white py-2 px-3 text-xl">
+    <button class="lg:hidden bg-text text-white py-2 px-3 text-xl" @click="openDrawer">
       <fai icon="fa-solid fa-bars" />
     </button>
+
+    <Drawer :active="active" @close-drawer="closeDrawer" />
   </nav>
 </template>
 
 <script setup lang="ts">
+import { ref } from 'vue';
 import { useRouter } from 'vue-router';
 import Link from '@/types/Link.type';
 import j_links from '@/json/links.json';
+import Drawer from './Drawer.vue';
 
 //* Defined.
 const links: Link[] = j_links.links;
 const router = useRouter();
+const active = ref<boolean>(false);
 
 //* Functions.
 const ToHome = () => {
   router.push('/');
 };
+
+const openDrawer = () => {
+  active.value = true;
+}
+
+const closeDrawer = () => {
+  active.value = false;
+}
 
 </script>
 
