@@ -22,4 +22,5 @@ import ProductCard from '../ProductCard.vue';
 const products: Product[] = j_products.products;
 </script>
 
-<style scoped lang="scss"></style>
+<style scoped lang="scss">
+</style>

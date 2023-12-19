@@ -10,7 +10,7 @@
         <input type="number" id="name" v-model="minP" class="w-full h-7 border border-gray-600 rounded-md px-1" placeholder="0.00">
       </div>
       <div class="field-container text-sm italic font-semibold">
-        <label for="name">Precio Max</label>
+        <label for="name">Max</label>
         <input type="number" id="name" v-model="maxP" class="w-full h-7 border border-gray-600 rounded-md px-1" placeholder="23000.00">
       </div>
     </form>
