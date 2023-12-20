@@ -1,5 +1,5 @@
 <template>
-  <div class="service-displayer max-w-4xl mx-auto text-white relative" :class="{ rtl }">
+  <div ref="el" class="service-displayer max-w-4xl mx-auto text-white relative" :class="{ rtl, visible }">
     <img :src="require('@/assets/images/' + service.imgUrl)" class="service-img object-cover h-full w-full absolute left-0 top-0" alt="Service image">
     <div class="background-screen absolute w-full h-full top-0 left-0 bg-black/50"></div>
     <div class="info-container px-8 py-12 relative">
@@ -20,20 +20,31 @@
 </template>
 
 <script setup lang="ts">
-import { PropType } from 'vue';
+import { useElementVisibility } from '@vueuse/core';
+import { PropType, ref } from 'vue';
 import Service from '@/types/Service.type';
 
 const props = defineProps({
   service: { type: Object as PropType<Service>, required: true },
   rtl: { type: Boolean, default: false },
 });
+const el = ref<HTMLElement>();
+const visible = useElementVisibility(el);
+console.log(visible.value)
 </script>
 
 <style scoped lang="scss">
 .service-displayer {
   box-shadow: 0 0 10px rgb(168, 168, 168);
+  translate: -95% 0;
+  opacity: 0;
+  transition-property: translate, opacity;
+  transition-duration: 300ms;
+  transition-timing-function: ease;
+
   &.rtl {
     direction: rtl;
+    translate: 95% 0;
   }
 
   .info-container {
@@ -48,6 +59,11 @@ const props = defineProps({
       grid-template-columns: 1fr 1fr;
       grid-template-rows: auto;
     }
+  }
+
+  &.visible {
+    translate: 0 0;
+    opacity: 1;
   }
 }
 </style>

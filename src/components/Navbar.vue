@@ -2,7 +2,7 @@
   <nav class=" text-text fixed left-0 right-0 top-0 flex justify-between gap-x-4 items-center py-4 z-50 bg-secondary/90">
     <div @click="ToHome" class="logo-container flex gap-x-2 items-center hover:cursor-pointer">
       <img src="../assets/logo.png" alt="Logo image" class="border border-black rounded-full">
-      <h1 class="sm:text-2xl text-xl font-semibold">Electrónica B&R</h1>
+      <h1 class="sm:text-xl text-xl font-semibold">Electrónica B&R</h1>
     </div>
 
     <ul class="links-container hidden lg:flex gap-4 items-center text-inherit font-semibold">

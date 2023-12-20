@@ -1,5 +1,5 @@
 <template>
-  <section class="services relative bg-l_primary" id="servicios">
+  <section class="services overflow-x-hidden relative bg-l_primary" id="servicios">
     <!--<div class="dark-screen bg-black/30 absolute top-0 left-0 right-0 bottom-0"></div>-->
     <div class="section-title text-text text-3xl font-semibold text-center">¿Qué te ofrecemos?</div>
     <br><br><br>
