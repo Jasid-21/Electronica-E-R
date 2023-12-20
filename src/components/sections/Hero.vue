@@ -1,5 +1,5 @@
 <template>
-  <section class="hero min-h-screen">
+  <section class="hero min-h-screen overflow-x-hidden">
     <div ref="el" class="info-layer grid items-center grid-rows-2 gap-4 md:grid-cols-2 md:grid-rows-1 md:gap-8 text-white mt-24"
       :class="{ visible }">
       <h2 class="text-3xl font-bold">

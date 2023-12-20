@@ -1,5 +1,5 @@
 <template>
-  <section class="products bg-background2" id="productos">
+  <section class="products bg-background2 overflow-x-hidden" id="productos">
     <div class="header-container flex flex-col items-start gap-y-2 2sm:flex-row 2sm:justify-between 2sm:items-end">
       <div class="title-container">
         <h2 class="title text-3xl text-text font-semibold">Destacados</h2>

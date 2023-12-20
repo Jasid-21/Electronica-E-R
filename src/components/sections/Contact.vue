@@ -1,5 +1,5 @@
 <template>
-  <section class="contact bg-gray-300 grid gap-8 grid-rows-2 sm:grid-cols-2" id="contacto">
+  <section class="contact bg-gray-300 grid gap-8 grid-rows-2 sm:grid-cols-2 sm:grid-rows-1" id="contacto">
     <div class="contact-info">
       <h3 class="text-xl font-semibold">Descubre nuestros métodos de contacto</h3>
       <br>

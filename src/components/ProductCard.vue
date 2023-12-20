@@ -10,7 +10,7 @@
 </template>
 
 <script setup lang="ts">
-import { PropType, ref } from 'vue';
+import { PropType, ref, watch } from 'vue';
 import { useElementVisibility } from '@vueuse/core';
 import Product from '@/types/Product.type';
 
@@ -26,11 +26,11 @@ const visible = useElementVisibility(el);
   width: 100%;
   max-width: 250px;
 
-  scale: 1.5;
+  //scale: 1.5;
   opacity: 0;
 
   transition-property: scale, opacity;
-  transition-duration: 200ms;
+  transition-duration: 350ms;
   transition-timing-function: ease;
 
   &.visible {
